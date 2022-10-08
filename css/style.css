@@ -509,3 +509,11 @@ font-size: 2em;
   line-height: 40px;
   font-family: "monospace";
 }
+
+a:link {
+  text-decoration: none;
+}
+
+a{
+  color : white !important;
+}
