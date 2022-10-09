@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
- body {
-	 padding: 0;
-	 margin: 0;
-}
+
  section.row.testimonials {
-	 background-color: #6b4476;
+	 background-color: #141414;
 	 padding: 20px;
 	 box-sizing: border-box;
 }
@@ -20,8 +17,9 @@
 	 background-color: #fff;
 	 transition: 0.3s all linear;
 }
+
  section.row.testimonials .owl-carousel .item:hover {
-	 background-color: #885796;
+	 background-color: #444444;
 }
  section.row.testimonials .owl-carousel .item:hover h3, section.row.testimonials .owl-carousel .item:hover p {
 	 color: #fff;

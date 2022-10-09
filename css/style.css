@@ -136,6 +136,78 @@ span.glyphicon.glyphicon-triangle-bottom {
    padding: 10px !important;
 }
 
+.accordion-content {
+  margin: 0 auto;
+  padding: 2rem;
+  background: rgb(17, 17, 17);
+  border-radius: 8px;
+}
+
+.bx{
+  border-radius: 5px !important;
+  background: #000000 !important;
+  color: white !important;
+}
+
+.accordion-item {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+  border-radius: 5px;
+  background: #fff;
+  margin-bottom: 0.5em;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 0.2em;
+}
+
+.item-icon {
+  margin-top: 1rem;
+  flex: 0 0 25px;
+  display: grid;
+  place-items: center;
+  font-size: 1.25rem;
+  height: 25px;
+  width: 25px;
+  border-radius: 4px;
+  background: #dedede;
+  cursor: pointer;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.09);
+}
+
+.item-icon i {
+  transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+}
+.item-question {
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 800;
+  padding: 10px !important;
+}
+
+.active .item-icon i {
+  transform: rotate(180deg);
+}
+
+.active .item-question {
+  font-weight: 800;
+}
+
+.item-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 300ms ease;
+}
+
+.item-answer {
+  line-height: 150%;
+  opacity: 1;
+  font-size: 15px;
+  padding: 5px !important;
+}
 
 
 @media only screen and (min-width:200px) and (max-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
@@ -471,6 +543,7 @@ font-size: 2em;
   background: rgb(0, 207, 189);
 }
 .mainFooter{
+  margin-top: 10px;
 	background-color: #000000;
 	color: #ffffff;
 }
@@ -509,6 +582,74 @@ font-size: 2em;
   line-height: 40px;
   font-family: "monospace";
 }
+
+.formOP{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  background: #000000;
+  margin-top: 20px !important;
+  font-size: 22px;
+  color: rgb(186, 186, 186);
+  border-radius: 10px !important;
+}
+
+.wrapper {
+    --bg: #black;
+    --color: #eee;
+}
+
+.wrapper {
+    padding: 1.5rem 0;
+    filter: url('#goo');
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    background: var(--color);
+    color: black !important;
+    font-weight: bold;
+    padding: 1.18em 1.32em 1.03em;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    min-width: 8.23em;
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 1.25rem;
+}
+
+.button:before,
+.button:after {
+    width: 4.4em;
+    height: 2.95em;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background: var(--color);
+    border-radius: 33%;
+    transition: transform 1s ease;
+    transform: scale(0);
+    z-index: -1;
+}
+
+.button:before {
+    top: -25%;
+    left: 20%;
+}
+
+.button:after {
+    bottom: -25%;
+    right: 20%;
+}
+
+.button:hover:before,
+.button:hover:after {
+    transform: none;
+}
+
 
 a:link {
   text-decoration: none;
