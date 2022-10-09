@@ -502,3 +502,18 @@ font-size: 2em;
 .navbar-collapse{
   justify-content: center !important;
 }
+.captcha .preview{
+  height: 40px;
+  border: 1px solid #000000;
+  margin-bottom: 10px;
+  line-height: 40px;
+  font-family: "monospace";
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a{
+  color : white !important;
+}
