@@ -64,7 +64,7 @@ span.glyphicon.glyphicon-triangle-bottom {
 }
 .about{
 	background-size: cover;
-	background: #4b4b4b;
+	background: #040404;
 /* 	background-image: url('../img/1.jpg');
  */	padding-bottom: 5vw;
 	text-align: center;
@@ -77,8 +77,13 @@ span.glyphicon.glyphicon-triangle-bottom {
     font-weight: bold !important
 }
 
+.standwithsatyam{
+  color:white !important;
+}
+
 .whoami{
   color: #9CA69D;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .manifesto_heading{
@@ -247,9 +252,7 @@ span.glyphicon.glyphicon-triangle-bottom {
 @media only screen and (max-width:1281px) { /* hi-res laptops and desktops */ 
 }
 
-.skills{
 
-}
 
 .experience{
 	background-color: rgba(255,244,1,0.4);	height: 100vh;
