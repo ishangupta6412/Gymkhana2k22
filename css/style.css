@@ -64,7 +64,7 @@ span.glyphicon.glyphicon-triangle-bottom {
 }
 .about{
 	background-size: cover;
-	background: #efefef;
+	background: #4b4b4b;
 /* 	background-image: url('../img/1.jpg');
  */	padding-bottom: 5vw;
 	text-align: center;
@@ -77,12 +77,20 @@ span.glyphicon.glyphicon-triangle-bottom {
     font-weight: bold !important
 }
 
+.whoami{
+  color: #9CA69D;
+}
+
+.manifesto_heading{
+  color:#9d9d9d;
+}
+
 .sat-img{
   justify-content: center !important;
 }
 
 .yourPic{
-	    padding-left: 0%;
+	    padding-left: 0% !important;
 	    transition:  all 0.5s;
       height: 300px !important;
       width: auto;
