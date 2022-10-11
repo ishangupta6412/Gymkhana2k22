@@ -710,10 +710,10 @@ font-size: 2em;
     right: 20%;
 }
 
-.button:hover:before,
+/* .button:hover:before,
 .button:hover:after {
     transform: none;
-}
+} */
 
 
 a:link {
