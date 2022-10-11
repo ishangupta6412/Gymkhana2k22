@@ -130,6 +130,20 @@ span.glyphicon.glyphicon-triangle-bottom {
   text-align: center !important;
 }
 
+.social{
+  margin-top: 4px;
+}
+
+.hrtag{
+  margin-top:0px;
+  margin-bottom:3px;
+  border: 0.5px solid #303030;
+}
+
+.rightsres{
+  margin-top: 7px;
+}
+
 .manifesto-content-op{
   background-color:#ffffff;
   height: 90vh;
@@ -508,8 +522,19 @@ font-size: 2em;
   border: 2px solid;
   padding: 1em;
 }
-.contactMe{
 
+.foo-head{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color:white;
+}
+
+.contact{
+  margin-bottom: 100px ;
+  margin-top: 100px;
 }
 .contact-section {
   padding: 4em 0;
