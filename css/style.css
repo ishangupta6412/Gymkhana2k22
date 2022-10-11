@@ -64,7 +64,7 @@ span.glyphicon.glyphicon-triangle-bottom {
 }
 .about{
 	background-size: cover;
-	background: #efefef;
+	background: #040404;
 /* 	background-image: url('../img/1.jpg');
  */	padding-bottom: 5vw;
 	text-align: center;
@@ -77,12 +77,30 @@ span.glyphicon.glyphicon-triangle-bottom {
     font-weight: bold !important
 }
 
+.hashtags{
+  font-size: 30px !important;
+  color:#f4f4f4;
+}
+
+.standwithsatyam{
+  color:white !important;
+}
+
+.whoami{
+  color: #9CA69D;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.manifesto_heading{
+  color:#9d9d9d;
+}
+
 .sat-img{
   justify-content: center !important;
 }
 
 .yourPic{
-	    padding-left: 0%;
+	    padding-left: 0% !important;
 	    transition:  all 0.5s;
       height: 300px !important;
       width: auto;
@@ -115,6 +133,26 @@ span.glyphicon.glyphicon-triangle-bottom {
   letter-spacing: 12px !important;
   font-weight: lighter;
   text-align: center !important;
+}
+
+.social{
+  margin-top: 4px;
+}
+
+.social-heading{
+  font-size: 16px !important;
+  color: #d2d2d2;
+}
+
+.hrtag{
+  margin-top:0px;
+  margin-bottom:3px;
+  border: 0.5px solid #303030;
+}
+
+.rightsres{
+  margin-top: 7px;
+  color:#999999;
 }
 
 .manifesto-content-op{
@@ -215,16 +253,25 @@ span.glyphicon.glyphicon-triangle-bottom {
 	.yourPic{
 	    padding-left: 0%;
 	}
+  .standwithsatyam{
+    font-size: 1.5em !important;
+  }
 }
 @media only screen and (min-width:321px) and (max-width:400px)  { /* smartphones, Android phones, landscape iPhone */
 	.yourPic{
 	    padding-left: 10%;
 	}
+  .standwithsatyam{
+    font-size: 2em !important;
+  }
 }
-@media only screen and (min-width:401px) and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media only screen and (min-width:412px) and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 	.yourPic{
 	    padding-left: 25%;
 	}
+  .standwithsatyam{
+    font-size: 1.5em !important;
+  }
 	
 }
 @media only screen and (min-width:601px) and (max-width:767px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
@@ -239,9 +286,7 @@ span.glyphicon.glyphicon-triangle-bottom {
 @media only screen and (max-width:1281px) { /* hi-res laptops and desktops */ 
 }
 
-.skills{
 
-}
 
 .experience{
 	background-color: rgba(255,244,1,0.4);	height: 100vh;
@@ -488,8 +533,23 @@ font-size: 2em;
   border: 2px solid;
   padding: 1em;
 }
-.contactMe{
 
+.foo-head{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color:white;
+}
+
+.foo-bg{
+  background-color: #000000;
+}
+
+.contact{
+  margin-bottom: 10px ;
+  margin-top: 100px;
 }
 .contact-section {
   padding: 4em 0;
@@ -553,7 +613,7 @@ font-size: 2em;
 	font-family: 'Nunito-Bold';
   	font-size: 1em;
   	text-transform: capitalize;
-  	padding-top: 10px;
+  	padding-top: 0px;
 }
 .panel-default>.panel-heading {
     background-color: #db0f31;
@@ -571,6 +631,10 @@ font-size: 2em;
 
 .navbar-nav{
   justify-content: center !important;
+}
+
+.collapse{
+  z-index: 0;
 }
 
 .navbar-collapse{
