@@ -228,16 +228,25 @@ span.glyphicon.glyphicon-triangle-bottom {
 	.yourPic{
 	    padding-left: 0%;
 	}
+  .standwithsatyam{
+    font-size: 1.5em !important;
+  }
 }
 @media only screen and (min-width:321px) and (max-width:400px)  { /* smartphones, Android phones, landscape iPhone */
 	.yourPic{
 	    padding-left: 10%;
 	}
+  .standwithsatyam{
+    font-size: 2em !important;
+  }
 }
-@media only screen and (min-width:401px) and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media only screen and (min-width:412px) and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 	.yourPic{
 	    padding-left: 25%;
 	}
+  .standwithsatyam{
+    font-size: 1.5em !important;
+  }
 	
 }
 @media only screen and (min-width:601px) and (max-width:767px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
